@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "49528925-cb23-4e40-9e37-c1bc7b73132f",
+		"name": "Firstestadrycollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24342969"
+	},
+	"item": [
+		{
+			"name": "v5 Location Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validate status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Validate body includes sharedssn_names \", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"sharedssn_names\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Response time is less than 2000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "374090939c5843d4b6e867425b717540",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Ocp-Apim-Subscription-Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"request\": {\r\n\"control_data\":{\r\n\"account_ID\":\"TESSERA\",\r\n\"user_ID\":\"Adriana_TU\",\r\n\"reference_ID\": \"AdryTest\"\r\n},\r\n   \"candidate_name\": {\r\n     \"first_name\": \"Michelle\",\r\n     \"middle_name\": \"Marie\",\r\n     \"last_name\": \"Lowery-Rowan\",\r\n     \"prefix\": \"\",\r\n     \"suffix\": \"\"\r\n   },\r\n   \"candidate_dob\": \"1971-02-01T00:00:00\",\r\n   \"candidate_ssn\": {\r\n     \"number\": \"293823335\",\r\n     \"issue_date\": null,\r\n     \"issue_state\": \"\"\r\n   },\r\n   \"candidate_zip\": \"17315\",\r\n   \"candidate_phone\": \"717 599-1280\",\r\n   \"searches\": [\r\n     \"ssn_exact\"\r\n   ]\r\n }\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://stg-api.themisds.com/v5/locationsearch",
+					"protocol": "https",
+					"host": [
+						"stg-api",
+						"themisds",
+						"com"
+					],
+					"path": [
+						"v5",
+						"locationsearch"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "firsName",
+			"value": ""
+		},
+		{
+			"key": "fullname",
+			"value": ""
+		}
+	]
+}
