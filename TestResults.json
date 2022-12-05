@@ -1,6 +1,6 @@
 {
     "info" : {
-        "project": "TDS Product Engineering",
+        "project": "TDS_Product_Engineering",
         "summary" : "Execution of automated tests for release v1.3",
         "description" : "This execution is automatically created when importing execution results from an external source",
         "version" : "v1.3",
