@@ -20,7 +20,7 @@
             "status" : "PASSED"
         },
         {
-            "testKey" : "DEMO-7",
+            "testKey" : "TDSPE-692",
             "start" : "2014-08-30T11:51:00+01:00",
             "finish" : "2014-08-30T11:52:30+01:00",
             "comment" : "Execution failed. Example #5 FAIL.",
