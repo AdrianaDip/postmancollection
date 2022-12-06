@@ -10,7 +10,7 @@
         "startDate" : "2014-08-30T11:47:35+01:00",
         "finishDate" : "2014-08-30T11:53:00+01:00",
         "testPlanKey" : "TDSPE-695",
-        "fixVersions": ["abc"]
+        "fixVersions": ["abc"],
         "testEnvironments": ["ADD_QA_PrivatePortal"]
      },
     
