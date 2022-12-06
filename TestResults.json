@@ -7,7 +7,6 @@
         "description" : "This execution is automatically created when importing execution results from an external source",
         "version" : "v1.3",
         "user" : "Adriana Di Pietro",
-        "revision" : "1.0.42134",
         "startDate" : "2014-08-30T11:47:35+01:00",
         "finishDate" : "2014-08-30T11:53:00+01:00",
         "testPlanKey" : "TDSPE-695",
