@@ -1,17 +1,57 @@
+
 {
-"fields": {
-"project": {
-"key": "TDS"
-},
-"summary": "",
-"description": "",
-"customfield_10928": [
-"<browser>", "Jenkins"
-],
-"issuetype": {
-"id": "10302"
-},
-"fixVersions": [
-]
-}
+    "info" : {
+        "project": "TDSPE",
+        "summary" : "Execution of automated tests for release v1.3",
+        "description" : "This execution is automatically created when importing execution results from an external source",
+        "version" : "v1.3",
+        "user" : "Adriana Di Pietro",
+        "revision" : "1.0.42134",
+        "startDate" : "2014-08-30T11:47:35+01:00",
+        "finishDate" : "2014-08-30T11:53:00+01:00",
+        "testPlanKey" : "TDSPE-695",
+        "testEnvironments": ["ADD_QA_PrivatePortal"]
+     },
+    
+    "tests" : [
+        {
+            "testKey" : "TDSPE-691",
+            "start" : "2014-08-30T11:47:35+01:00",
+            "finish" : "2014-08-30T11:50:56+01:00",
+            "comment" : "Successful execution",
+            "status" : "PASSED"
+        },
+        {
+            "testKey" : "TDSPE-692",
+            "start" : "2014-08-30T11:51:00+01:00",
+            "finish" : "2014-08-30T11:52:30+01:00",
+            "comment" : "Execution failed. Example #5 FAIL.",
+            "status" : "FAILED",
+            "evidences" : [
+                {
+                    "data": "iVBORw0KGgoAAAANSUhEUgAABkIAAAO9CAYAAADezXv6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEn(...base64 file enconding)",
+                    "filename": "image21.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "steps": [
+                {
+                    "status": "PASSED",
+                    "comment": "Comment on Test Step Result 1",
+                    "actualResult" : "Step Passed with Status Code 200",
+                    "evidences" : [
+                        {
+                            "data": "iVBORw0KGgoAAAANSUhEUgAABkIAAAO9CAYAAADezXv6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEn(...base64 file enconding)",
+                            "filename": "image22.jpg",
+                            "contentType": "image/jpeg"
+                        }
+                    ]
+                }
+            ],
+            "defects" : [
+                    "DEMO-10",
+                    "DEMO-11"
+           ]
+        }
+    ]
 }
