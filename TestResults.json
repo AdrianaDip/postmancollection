@@ -14,7 +14,7 @@
 ],
 "testInfo": {
 "summary": "Strong password validation",
-"type": "Test",
+"type": "Manual",
 "projectKey": "TDSPE",
 "steps": [
 {
