@@ -15,7 +15,7 @@
 "testInfo": {
 "summary": "Strong password validation",
 "type": "Manual",
-"projectKey": "TDSPE",
+"projectKey": "TDS",
 "steps": [
 {
 "action": "Open the Change Password screen by selecting option \"My Profile > Password\"",
