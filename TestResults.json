@@ -14,7 +14,7 @@
 ],
 "testInfo": {
 "summary": "Strong password validation",
-"type": "Manual, Generic, Cucumber",
+"type": "Manual",
 "projectKey": "TDS",
 "steps": [
 {
