@@ -11,6 +11,8 @@
         "finishDate" : "2014-08-30T11:53:00+01:00",
         "testPlanKey" : "TDSPE-695",
         "testEnvironments": ["ADD_QA_PrivatePortal"]
+        "fixVersions": [
+{"id" : "<jira-fixed-version-id">}
      },
     
     "tests" : [
