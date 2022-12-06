@@ -5,7 +5,6 @@
         "project": "TDSPE",
         "summary" : "Execution of automated tests for release v1.3",
         "description" : "This execution is automatically created when importing execution results from an external source",
-        "version" : "v1.3",
         "user" : "Adriana Di Pietro",
         "startDate" : "2014-08-30T11:47:35+01:00",
         "finishDate" : "2014-08-30T11:53:00+01:00",
