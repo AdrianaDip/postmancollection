@@ -14,7 +14,7 @@
 ],
 "testInfo": {
 "summary": "Strong password validation",
-"type": "Manual",
+"type": "Test",
 "projectKey": "TDS",
 "steps": [
 {
